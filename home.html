@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body id="Home" style="font-size:48px; text-align: center;">
+    <div>
+        <div>
+          <img style="border-radius:10%;margin-left:10px;image-resolution: 1080px;" src="https://lh3.googleusercontent.com/AaM_NlYmP7o3EBNzA3MvLlAKe_qqnZ-I_fdYl5InruMxniaaA6WxGxEvVatnA9T7TNuJew=s85" alt="Me">
+        </div>
+            <b>Ibekwe Chimmezirim <br> Frontend developer | crypto/blockchain enthusiast </b>
+    </div>
+    <div>
+        <p>
+         <b>Birth:</b> March 11.
+        </p> 
+        <p>
+          <b>Location:</b> Lagos, Nigeria.
+        </p>  
+        <p>
+            <b>Education:</b> University of Nigeria, Nsukka.
+        </p>
+        <p>
+            <b>Hobbies:</b> Drawing, basketball
+        </p>
+    </div>
+    
+</body>
+</html>
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
